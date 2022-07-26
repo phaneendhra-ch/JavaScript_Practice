@@ -10,5 +10,5 @@ class Car {
   };
 
 let car1 = new Car("phani",2000)
-car1.get_year()
-console.log(car1.get_year_twice())
+car1.get_year()                         // year : 2000
+console.log(car1.get_year_twice())      // 4000
