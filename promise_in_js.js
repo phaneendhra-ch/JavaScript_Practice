@@ -19,5 +19,5 @@ var promise = new Promise(function(resolve, reject) {
     
     promise.
         then(() => console.log('Success, You are a GEEK')).
-        catch(() => console.log('Some error has occurred'););
+        catch(() => console.log('Some error has occurred'));
     
