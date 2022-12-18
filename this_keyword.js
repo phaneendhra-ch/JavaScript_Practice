@@ -12,3 +12,6 @@ class Car {
 let car1 = new Car("phani",2000)
 car1.get_year()                         // year : 2000
 console.log(car1.get_year_twice())      // 4000
+car1.age= 22;   // Car class doesnt have member age
+
+console.log(`age of phani ${car1.age}`) // side effects of JavaScript, even though it doesnt have member it still considers
